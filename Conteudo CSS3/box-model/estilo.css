@@ -1,0 +1,48 @@
+/* Modelo de caixa */
+/*
+
+.conteudo{
+    border: 1px solid red;
+
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;                   <!-- Maneiras de aplicar padding -->
+    padding-left: 20px;
+
+    padding: 20px 15px 10px 5px; 
+    padding: 20px;
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;                    <!-- Maneiras de aplicar margin -->
+    margin-left: 20px;
+    margin: 10px;
+
+
+    width: 150px;
+}
+
+/* Será sempre aplicado a margin maior */
+
+/*
+
+.conteudo2{
+    margin: 5px;
+    width: 150px;
+    border: 1px solid red;
+}
+
+*/
+
+
+/* Notícia */
+#noticia{
+    background: #f9f9f9;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+h2{
+    margin: 0px;
+}
