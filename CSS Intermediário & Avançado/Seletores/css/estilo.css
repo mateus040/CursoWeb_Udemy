@@ -1,0 +1,58 @@
+/* SELETOR UNIVERSAL */
+* {
+    /*border: 1px solid red;*/
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* SELETOR DE TEXTO */
+h1{
+    color: green;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* SELETOR DE CLASSE */
+.verde {
+    color: green;
+}
+
+p.verde{
+    color: green; /* Apenas dentro de parágrafos */
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* SELETOR DE ID */
+#cabecalho{
+    border: 1px solid blue;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* SELETOR DE FILHO */
+li > a {
+    color: red;
+    text-decoration: none;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* SELETOR DE DESCENDENTE */
+div a{
+    color: green;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* SELETOR DE IRMÃO ADJACENTE */
+h1+p {
+    color: red;   /* Código logo abaixo */
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* SELETOR DE IRMÃO GERAL */
+h1~p{
+    color: pink;  /* Se estende aos demais códigos abaixo */
+}
