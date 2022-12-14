@@ -1,0 +1,35 @@
+/* HERANÇA E ESPECIFICIDADE */
+
+
+/* HERANÇA */
+ /*body{
+    color: red;
+}*/
+
+/* ESPECIFICIDADE */
+/*#pagina p {
+    color: red !important;   "!important" atributo mais importante que qualquer outro (Não utilizar com frequência) 
+} 
+
+#pagina p {
+    color: blue;   Em caso de dois seletores iguais, o último é aplicado. 
+} */
+
+
+/* Se um seletor for mais específico que outro a regra mais específica será aplicada
+(terá precedência sobre regras mais gerais) */
+* { /*4º*/
+    color: red;
+}
+
+h2 { /*3º*/
+    color: blue;
+}
+
+h2.verde{ /*2º*/
+    color: green;
+}
+
+h2#amarelo{ /*1º*/
+    color: yellow;
+}
