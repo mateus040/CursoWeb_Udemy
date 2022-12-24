@@ -1,0 +1,6 @@
+Normalize.css
+
+Corrige alguns bugs que existem nas estilizações padrões dos navegadores.
+Zera configurações padrões dos navegadores.
+
+https://necolas.github.io/normalize.css/
