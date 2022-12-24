@@ -1,0 +1,1 @@
+Para usar fontes customizadas, é necessário converter para WOFF, para que a mesma funcione na Web.
