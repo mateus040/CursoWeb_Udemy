@@ -1,0 +1,4 @@
+article -> Postagens;
+section -> Seções;
+time -> Formatar Datas;
+aside -> Áreas Laterais;
