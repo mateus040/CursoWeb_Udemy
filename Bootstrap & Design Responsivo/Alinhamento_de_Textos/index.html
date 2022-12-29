@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Bootstrap - Alinhamento de Textos</title>
+</head>
+<body style="margin-bottom: 200px; padding: 16px">
+    
+    <!--Parágrafo justificado-->
+    <p class="text-justify">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+
+    <br>
+    <br>
+
+    <!--Alinhamento responsivo - 
+        class text-<tela>-<alinhamento>
+        tela: sm, md, lg, xl
+        alinhamento: left, center, right-->
+
+    <p class="text-sm-right">Tela &gt;= 576px</p> <!--Small-->
+    <p class="text-md-right">Tela &gt;= 768px</p> <!--Medium-->
+    <p class="text-lg-right">Tela &gt;= 992px</p> <!--Large-->
+    <p class="text-xl-right">Tela &gt= 1200px</p> <!--Extra Large-->
+
+    <br>
+    <br>
+
+    <!--Elemento Block para inline--> <!--Um ao lado do outro-->
+    <h1 class="bg-success d-inline">Lorem ipsum dolor</h1> <!-- "bg-success -> Cor de fundo -->
+    <p class="bg-success d-inline">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+
+    <br>
+    <br>
+
+    <!--Elemento Inline para Block--> <!--Um abaixo do outro-->
+    <span class="bg-success d-block">Lorem ipsum dolor 1</span>
+    <br>
+    <span class="bg-success d-block">Lorem ipsum dolor 2</span>
+
+    <br>
+    <br>
+
+    <!--Elemento Inline-Block--> <!--Hibrído, nem inline e nem block-->
+    <div class="bg-warning">
+        <h3 class="bg-success d-inline-block">Lorem ipsum</h3>
+        <h3 class="bg-success d-inline-block" style="margin-top: 50px; width: 400px;">Lorem ipsum dolor</h3>
+    </div>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
