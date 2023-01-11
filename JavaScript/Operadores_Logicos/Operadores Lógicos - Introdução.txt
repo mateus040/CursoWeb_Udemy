@@ -1,0 +1,7 @@
+Operadores Lógicos
+
+Operadores:
+
+- E (&&) - Verdadeiro se todas as expressões forem verdadeiras
+- OU (||) - Verdadeiro se pelo menos uma das expressões for verdadeira
+- Negação (!) - Inverte o resultado da expressão de comparação (ex: "true" é convertido para "false")
