@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções Datas</title>
+
+    <script>
+
+        var data = new Date() // Cria um novo objeto de data
+
+        document.write(data.getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear())
+        document.write('<br>')
+
+        document.write(data.getDate()) // Retorna o dia
+        document.write('<br>')
+
+        document.write(data.getMonth() + 1) // Retorna o mês (+1 pois a função reconhece o 0 como janeiro, com isso ajustando para 12)
+        document.write('<br>')
+
+        document.write(data.getFullYear()) // Retorna o ano
+        document.write('<br>')
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
