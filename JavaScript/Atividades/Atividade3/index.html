@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Crie uma aplicação para efetuar cálculo aritméticos de soma e subtração.-->    
+    <title>Atividade 3</title>
+
+    <script>
+
+        var numero1 = prompt('Digite o primeiro número: ')
+        var operacao = prompt('Digite a operação (texto): ')
+        var numero2 = prompt('Digite o segundo número: ')
+
+        var resultado
+
+        numero1 = parseInt(numero1)
+        numero2 = parseInt(numero2)
+
+        function calculoSomaSubtracao (numero1, operacao, numero2)
+        {
+            if (operacao == 'soma')
+            {
+                resultado = numero1 + numero2
+            }
+
+            if (operacao == 'subtracao')
+            {
+                resultado = numero1 - numero2
+            }
+
+            return resultado
+        }
+
+        document.write('O resultado é: ' + calculoSomaSubtracao(numero1, operacao, numero2))
+
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
