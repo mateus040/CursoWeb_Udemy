@@ -1,0 +1,5 @@
+Eventos - Teclado
+
+onkeydown = acionado no momento que uma tecla é pressionada 
+onkeypress = acionando no momento em que a tecla é liberada (pressionar soltar)
+onkeyup = acionando quando se mantém a tecla pressionada

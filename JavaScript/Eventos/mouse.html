@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Mouse</title>
+
+    <script>
+
+        function acao()
+        {
+            alert('Evento disparado')
+        }
+
+        function acao2()
+        {
+            alert('O cursor do mouse deixou a região do elemento')
+        }
+
+    </script>
+
+    <style>
+
+        div{
+            background: #ccc;
+            height: 150px;
+            width: 150px;
+            display: inline-block;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!--Acionando ao dar 1 clique-->
+    <div onclick="acao()"></div>
+
+    <!--Acionando ao dar 2 cliques-->
+    <div ondblclick="acao()"></div>
+
+    <!--Acionando ao manter o clique pressionado e soltar-->
+    <div onmouseup="acao()"></div>
+
+    <!--Acionando ao passar o cursor por cima do elemento-->
+    <div onmouseover="acao()"></div>
+
+    <!--Acionando ao passar o cursor por cima e tirar o cursor de cima do elemento-->
+    <div onmouseout="acao2()"></div>
+    
+</body>
+</html>

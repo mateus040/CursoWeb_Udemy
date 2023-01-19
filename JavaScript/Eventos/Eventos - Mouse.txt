@@ -1,0 +1,7 @@
+Eventos - Mouse
+
+onclick = acionando quando o elemento é clicado
+ondblclick = acionando quando o elemento é clicado duas vezes
+onmouseup = acionando quando o clique sobre determinado elemento é liberado
+onmouseover = acionando quando o cursor do mouse sobrepõe o elemento
+onmouseout = acionando quando o cursor do mouse sai da região da pagina ocupada pelo elemento

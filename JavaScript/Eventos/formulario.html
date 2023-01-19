@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Janela</title>
+
+    <script>
+
+        
+        
+    </script>
+
+</head>
+<body>
+
+    <!--Acionado ao clicar-->
+    <input onfocus="console.log('teste')" type="text"> 
+
+    <br> <br>
+
+    <!--Acionado ao tirar o foco (clicar fora)-->
+    <input onblur="console.log('perdeu o foco')" type="text"> 
+
+    <br> <br>
+
+    <!--Acionado quando o elemento é modificado-->
+    <select onchange="console.log('recebeu o foco')" onblur="console.log('perdeu o foco')">
+        <option>-- Selecione --</option>
+        <option value="1">Primeira opção</option>
+        <option value="2">Segunda opção</option>
+    </select>
+
+</body>
+</html>
