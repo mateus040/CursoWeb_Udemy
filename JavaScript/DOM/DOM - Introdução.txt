@@ -1,0 +1,4 @@
+DOM - Introdução
+
+DOM -> Document Object Model
+API que permite o acesso via JavaScript aos elementos da página

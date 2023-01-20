@@ -1,0 +1,6 @@
+DOM - Selecionando Elementos
+
+getElementById() = Seleciona o elemento HTML pela propriedade ID
+getElementsByTagName() = Seleciona o elemento pela tag
+getElementsByClassName() = Seleciona o elemento pela class
+getElementsByName() = Seleciona o elemento pelo name
