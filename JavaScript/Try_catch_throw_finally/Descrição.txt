@@ -1,0 +1,4 @@
+try = tente
+catch = pegar
+throw = lançar
+finally = finalmente
