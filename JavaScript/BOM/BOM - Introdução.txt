@@ -7,3 +7,4 @@ API que permite o acesso via JavaScript a recursos do browser
 
 
 Window = Janela do browser onde todo conteúdo é renderizado
+Screen = Fornece acesso a atibutos relativos a tela do browser
