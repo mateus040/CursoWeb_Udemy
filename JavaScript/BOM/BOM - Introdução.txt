@@ -9,3 +9,15 @@ API que permite o acesso via JavaScript a recursos do browser
 Window = Janela do browser onde todo conteúdo é renderizado
 Screen = Fornece acesso a atibutos relativos a tela do browser
 Location = Fornece acesso a atributos e metódos da URL atual
+
+
+Timing = Permitem executar uma ação de forma programatica
+Ex:
+
+// Executa ação uma vez após o tempo informado
+setTimeout(<ação>, <tempo em milissegundos>;
+clearTimeout()
+
+// Sempre executa a ação apís o período informado
+setInterval(<ação>, <tempo em milissegundos>); 
+clearInterval()
