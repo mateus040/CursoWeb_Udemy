@@ -13,7 +13,13 @@
 <body onresize="ajustaTamanhoPalcoJogo()">
 
     <script>
+
         posicaoRandomica()
+
+        setInterval(function() {  // Mosquitos aparecendo a cada 1 segundo
+            posicaoRandomica()
+        }, 1000)
+
     </script>
     
 </body>
