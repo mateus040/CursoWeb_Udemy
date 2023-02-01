@@ -24,20 +24,18 @@ function posicaoRandomica()
     // Criando um elemento HTML (em forma programática)
     var mosquito = document.createElement('img')
     mosquito.src = 'imagens/mosquito.png'
-    mosquito.className = tamanhoAleatorio()
+    mosquito.className = tamanhoAleatorio() + ' ' + ladoAleatorio()
     mosquito.style.left = posicaoX + 'px' // Formando a coordenada em pixel
     mosquito.style.top = posicaoY + 'px' // Formando a coordenada em pixel
     mosquito.style.position = 'absolute'
 
     document.body.appendChild(mosquito) // Adicionando um "filho" ao body
-
-    console.log(tamanhoAleatorio())
 }
 
 
 function tamanhoAleatorio()
 {
-    var classe = Math.floor(Math.random() * 3) // Número de 0 a próximo de 3
+    var classe = Math.floor(Math.random() * 3) // Número de 0 a 3
     
     switch (classe)
     {
@@ -49,6 +47,21 @@ function tamanhoAleatorio()
 
         case 2:
             return 'mosquito3' // Classe
+    }
+}
+
+
+function ladoAleatorio()
+{
+    var classe = Math.floor(Math.random() * 2) // Número de 0 a 2
+    
+    switch (classe)
+    {
+        case 0:
+            return 'ladoA' // Classe
+
+        case 1:
+            return 'ladoB' // Classe
     }
 }
 
