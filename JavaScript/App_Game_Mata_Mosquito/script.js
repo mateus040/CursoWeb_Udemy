@@ -21,7 +21,7 @@ function posicaoRandomica()
 
         if (vidas > 3)
         {
-            alert('Interromper o jogo (game over)')
+            window.location.href = 'game_over.html'
         }
         else
         {
