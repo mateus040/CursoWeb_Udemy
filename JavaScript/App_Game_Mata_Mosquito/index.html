@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App Game Mata Mosquito</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="imagens/icone.ico">
 
     <script src="script.js"></script>
 
@@ -21,16 +22,16 @@
         </div>
 
         <div class="cronometro">
-            Tempo restante: ?
+            Tempo restante: <span id="cronometro"></span>
         </div>
 
     </div>
 
     <script>
 
-        posicaoRandomica()
+        document.getElementById('cronometro').innerHTML = tempo
 
-        setInterval(function() {  // Mosquitos aparecendo a cada 1 segundo
+        var criaMosquito =  setInterval(function() {  // Mosquitos aparecendo a cada 1 segundo
             posicaoRandomica()
         }, 2000)
 

@@ -1,6 +1,7 @@
 var altura = 0
 var largura = 0
 var vidas = 1
+var tempo = 15
 
 function ajustaTamanhoPalcoJogo()
 {
@@ -11,6 +12,24 @@ function ajustaTamanhoPalcoJogo()
 }
 
 ajustaTamanhoPalcoJogo()
+
+var cronometro = setInterval(function () {
+
+    tempo -= 1 // Decrementando 1 segundo
+
+    if (tempo < 0)
+    {
+        clearInterval(cronometro)
+        clearInterval(criaMosquito)
+        alert('Vitória')
+    }
+    else
+    {
+        document.getElementById('cronometro').innerHTML = tempo // Valor contido entre as tags
+    }
+
+
+} ,1000)
 
 function posicaoRandomica()
 {
